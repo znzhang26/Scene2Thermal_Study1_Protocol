@@ -7,7 +7,6 @@ This is a local Streamlit app that experts use to annotate the Scene2Thermal sce
 Python 3.11 or newer is required.
 
 ```bash
-cd scene2thermal_annotation
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
