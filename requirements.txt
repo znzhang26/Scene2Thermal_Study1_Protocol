@@ -1,0 +1,5 @@
+streamlit>=1.50,<2
+pandas>=2.0
+
+# tests only
+pytest>=8.0
