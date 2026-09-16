@@ -36,21 +36,25 @@ EXPORT_DIR: Path = Path(os.environ.get("S2T_EXPORT_DIR", APP_DIR / "exports"))
 # cube_kitchen).
 # --------------------------------------------------------------------------
 SCENES: dict[str, str] = {
-    "cube_kitchen": "request_log_cube_kitchen",
-    "kitchen": "request_log_kitchen",
+    "cute_kitchen": "request_log_cute_kitchen",
     "cabin": "request_log_cabin",
     "desert": "request_log_desert",
     "gingerbread": "request_log_gingerbread",
     "winter": "request_log_winter",
+    "dungeon": "request_log_dungeon",
+    "forest": "request_log_forest",
+    "village": "request_log_village",
 }
 
 SCENE_LABELS: dict[str, str] = {
-    "cube_kitchen": "Cube Kitchen",
-    "kitchen": "Kitchen",
+    "cute_kitchen": "Cute Kitchen",
     "cabin": "Cabin",
     "desert": "Desert",
     "gingerbread": "Gingerbread",
     "winter": "Winter",
+    "dungeon": "Dungeon",
+    "forest": "Forest",
+    "village": "Village",
 }
 
 SCENE_CSV_NAME = "postprocess_scene_scan_results.csv"
